@@ -111,4 +111,5 @@ Nada se publica sin el «publícalo» de Eddie.
 
 - **22-nov-2026, ciclo 1:**
   - Construidos: la home, el índice de la planta, las 24 fichas, el sitemap, robots, llms.txt, la imagen para compartir y la página 404.
-  - Repositorio en github.com/eajalcrina/bluepoint (público, rama main). Sin despliegue todavía.
+  - Repositorio en github.com/eajalcrina/bluepoint (público, rama main).
+  - Proyecto de Vercel «grupobluepoint», conectado a main: cada push despliega. Vercel Authentication en «all» (todas las direcciones piden iniciar sesión) hasta que Aníbal apruebe cifras y fichas y Eddie diga «publícalo». Al lanzar: agregar grupobluepoint.pe y bajar la protección.
