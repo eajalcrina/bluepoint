@@ -111,4 +111,4 @@ Nada se publica sin el «publícalo» de Eddie.
 
 - **22-nov-2026, ciclo 1:**
   - Construidos: la home, el índice de la planta, las 24 fichas, el sitemap, robots, llms.txt, la imagen para compartir y la página 404.
-  - No hay repositorio ni despliegue todavía.
+  - Repositorio en github.com/eajalcrina/bluepoint (público, rama main). Sin despliegue todavía.
