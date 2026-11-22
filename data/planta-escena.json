@@ -1,0 +1,583 @@
+{
+ "D": [
+  [
+   1,
+   1,
+   "Captación de agua y licencia de uso",
+   "A R",
+   "La planta capta agua de un pozo, de un cuerpo natural o de la red pública para el proceso, la limpieza y los servicios industriales. La fuente y el volumen captado definen las condiciones de uso y control.",
+   "Contar con la licencia de uso de agua o el derecho que corresponda a la fuente, medir los volúmenes captados y cumplir con la retribución económica y las condiciones establecidas en el derecho otorgado.",
+   "ANA"
+  ],
+  [
+   2,
+   1,
+   "Ablandamiento y ósmosis inversa",
+   "O A",
+   "El agua se acondiciona para calderos y proceso mediante ablandadores u ósmosis inversa. El tratamiento genera un rechazo con mayor concentración de sales y residuos de regeneración.",
+   "Manejar y disponer el rechazo y los residuos del tratamiento conforme al instrumento de gestión ambiental y, cuando se descargan, a la autorización de vertimiento o reúso que corresponda.",
+   "ANA · OEFA, según competencia"
+  ],
+  [
+   3,
+   1,
+   "Calderos y combustibles",
+   "O A",
+   "Los calderos generan el vapor que usan la cocción, el secado y la limpieza. Su combustión consume combustible y genera emisiones a la atmósfera.",
+   "Operar y mantener los equipos de combustión según el instrumento de gestión ambiental, almacenar los combustibles con las condiciones aplicables y realizar los monitoreos de emisiones con la frecuencia y los métodos exigidos.",
+   "OEFA · autoridad sectorial, según competencia"
+  ],
+  [
+   4,
+   1,
+   "Consumo de energía",
+   "O",
+   "La subestación alimenta motores, bombas, sistemas de frío y aire comprimido. El consumo de energía es uno de los principales indicadores de eficiencia de la planta.",
+   "Registrar el consumo y cumplir los compromisos de eficiencia energética que la planta haya asumido en su instrumento de gestión ambiental o en su sistema de gestión.",
+   "Gestión interna · autoridad sectorial, según el compromiso"
+  ],
+  [
+   5,
+   1,
+   "Recepción de materias primas e insumos",
+   "O R",
+   "La planta recibe, pesa y almacena materias primas e insumos antes de procesarlos. En esta etapa se generan aguas de descarga, mermas y residuos.",
+   "Mantener la trazabilidad y los registros de recepción, cumplir las condiciones sanitarias y sectoriales aplicables y manejar las aguas y los residuos de descarga según el instrumento de gestión ambiental.",
+   "PRODUCE · SANIPES, según competencia"
+  ],
+  [
+   6,
+   2,
+   "Procesos unitarios y balance de materia",
+   "O",
+   "Cada etapa del proceso (cocción, prensado, secado, enfriamiento, envasado) transforma la materia prima y consume agua y energía. En cada una se generan cargas que luego salen como efluentes, emisiones o residuos.",
+   "Operar según lo descrito en el instrumento de gestión ambiental y contar con un balance de agua y materia que sustente la capacidad, los consumos y las cargas declaradas.",
+   "Autoridad sectorial · OEFA, según competencia"
+  ],
+  [
+   7,
+   2,
+   "Mermas y subproductos",
+   "O A",
+   "Lo que no sale como producto final puede recuperarse como subproducto o terminar como residuo. Su manejo define cuánto vuelve al proceso y cuánto sale de la planta.",
+   "Identificar, almacenar y destinar las mermas y los subproductos según el instrumento de gestión ambiental y la normativa aplicable a su destino final.",
+   "Autoridad sectorial · OEFA, según competencia"
+  ],
+  [
+   8,
+   2,
+   "Requisitos sanitarios del proceso",
+   "R",
+   "Las áreas de proceso aplican programas de higiene y saneamiento, buenas prácticas de manufactura y control de puntos críticos para asegurar la inocuidad del producto.",
+   "Contar con la habilitación sanitaria que corresponda y mantener vigentes los programas, registros y verificaciones que exige la autoridad sanitaria.",
+   "SANIPES · DIGESA, según competencia"
+  ],
+  [
+   9,
+   2,
+   "Seguridad y salud en el trabajo",
+   "O R",
+   "La operación expone al personal a riesgos de máquinas, sustancias químicas, espacios confinados y trabajos en altura. La gestión de estos riesgos está ligada a la gestión ambiental.",
+   "Implementar el sistema de gestión de seguridad y salud en el trabajo, con identificación de peligros y evaluación de riesgos, controles, capacitación y registros, tomando la ISO 45001 como referencia cuando la planta la adopte.",
+   "SUNAFIL · autoridad sectorial, según competencia"
+  ],
+  [
+   10,
+   2,
+   "Mantenimiento de equipos ambientales",
+   "O A",
+   "Bombas, filtros, separadores, sistemas de tratamiento y de control de emisiones sostienen el cumplimiento ambiental. Si fallan, la planta incumple aunque el proceso siga funcionando.",
+   "Mantener operativos los equipos y sistemas de control ambiental comprometidos en el instrumento de gestión ambiental, con un plan de mantenimiento y registros que lo demuestren.",
+   "Gestión interna · OEFA, según los compromisos"
+  ],
+  [
+   11,
+   3,
+   "Tratamiento de efluentes",
+   "O A",
+   "Las aguas residuales del proceso pasan por un sistema de tratamiento que separa sólidos, grasas y aceites y reduce su carga mediante tratamientos físicos, químicos o biológicos.",
+   "Operar el sistema de tratamiento descrito en el instrumento de gestión ambiental y cumplir los límites aplicables al efluente tratado, verificados con monitoreos y métodos acreditados.",
+   "OEFA · autoridad sectorial, según competencia"
+  ],
+  [
+   12,
+   3,
+   "Vertimiento y reúso de aguas residuales tratadas",
+   "A R",
+   "Después del tratamiento, el efluente se descarga a un cuerpo natural de agua o se destina a un uso autorizado. Su destino y calidad determinan las condiciones de manejo, control y monitoreo.",
+   "Contar con la autorización de vertimiento o reúso que corresponda y cumplir las condiciones del instrumento de gestión ambiental y de la autorización: caudal, punto de descarga o uso, parámetros, límites aplicables y monitoreos con métodos acreditados, según lo exigido.",
+   "ANA · OEFA · DICAPI, según competencia"
+  ],
+  [
+   13,
+   3,
+   "Emisiones de fuentes fijas",
+   "A R",
+   "Las chimeneas de calderos, secadores y otros equipos de combustión descargan gases y material particulado a la atmósfera.",
+   "Cumplir los límites aplicables a las emisiones y realizar los monitoreos en los puntos, con la frecuencia y los métodos establecidos en el instrumento de gestión ambiental.",
+   "OEFA · autoridad sectorial, según competencia"
+  ],
+  [
+   14,
+   3,
+   "Olores y calidad de aire",
+   "A",
+   "El proceso, el almacenamiento de materias primas y el tratamiento de efluentes pueden generar olores y afectar la calidad del aire del entorno.",
+   "Aplicar las medidas de control comprometidas, monitorear la calidad de aire según el instrumento de gestión ambiental y atender las quejas de la población vecina.",
+   "OEFA · municipalidad, según competencia"
+  ],
+  [
+   15,
+   3,
+   "Ruido ambiental",
+   "A R",
+   "Ventiladores, compresores, bombas y el tránsito de camiones generan ruido que llega al perímetro de la planta y a las zonas vecinas.",
+   "Monitorear el ruido en los puntos del perímetro definidos en el instrumento de gestión ambiental y compararlo con los estándares aplicables a la zona, aplicando medidas de control cuando corresponda.",
+   "OEFA · municipalidad, según competencia"
+  ],
+  [
+   16,
+   3,
+   "Residuos sólidos",
+   "A R",
+   "La planta genera residuos peligrosos y no peligrosos que se segregan, se almacenan temporalmente y salen para su valorización o disposición final.",
+   "Segregar y almacenar los residuos según su tipo, manejarlos con empresas operadoras registradas, contar con los manifiestos y presentar las declaraciones exigidas.",
+   "OEFA · autoridad sectorial · municipalidad, según competencia"
+  ],
+  [
+   17,
+   3,
+   "Valorización de residuos orgánicos",
+   "O A",
+   "Los residuos orgánicos pueden convertirse en biogás mediante un biodigestor o en compost para uso agrícola, en lugar de ir a disposición final.",
+   "Que la actividad de valorización esté contemplada en el instrumento de gestión ambiental y se opere controlando sus propios efluentes, emisiones y olores.",
+   "Autoridad sectorial · OEFA, según competencia"
+  ],
+  [
+   18,
+   4,
+   "Instrumento de gestión ambiental y compromisos",
+   "R",
+   "El instrumento de gestión ambiental aprobado describe la operación y reúne los compromisos que la planta asumió: medidas de manejo, monitoreos, plazos y reportes.",
+   "Cumplir cada compromiso en el plazo establecido, con evidencia verificable, y actualizar o modificar el instrumento cuando la planta cambia su capacidad, sus procesos o sus instalaciones.",
+   "Autoridad sectorial · OEFA, según competencia"
+  ],
+  [
+   19,
+   4,
+   "Matriz de obligaciones y vigilancia normativa",
+   "R",
+   "La matriz reúne las obligaciones que aplican a la planta según su sector, su instrumento y sus autorizaciones, con el responsable, la frecuencia y la evidencia de cada una.",
+   "Mantenerla actualizada frente a los cambios normativos y operativos, y usarla para programar y verificar el cumplimiento.",
+   "Gestión interna"
+  ],
+  [
+   20,
+   4,
+   "Monitoreos y reportes a la autoridad",
+   "A R",
+   "La planta ejecuta programas de monitoreo de efluentes, emisiones, calidad de aire y ruido, y presenta sus resultados en informes periódicos.",
+   "Realizar los monitoreos con laboratorios y métodos acreditados y presentar los informes en los plazos y las plataformas que establece cada autoridad.",
+   "PRODUCE · OEFA · ANA · DICAPI, según competencia"
+  ],
+  [
+   21,
+   4,
+   "Supervisiones, fiscalizaciones y procedimientos sancionadores",
+   "R",
+   "La autoridad supervisa la planta en campo o en gabinete, emite requerimientos y, si encuentra incumplimientos, puede iniciar un procedimiento administrativo sancionador.",
+   "Atender las supervisiones con la información y las evidencias requeridas, presentar los descargos técnicos y legales en los plazos establecidos y cumplir las medidas administrativas o correctivas que se dicten.",
+   "OEFA · PRODUCE · ANA, según competencia"
+  ],
+  [
+   22,
+   4,
+   "Permisos, autorizaciones y expedientes",
+   "R",
+   "La operación depende de licencias, autorizaciones y certificados vigentes, cuyos trámites y modificaciones se siguen como expedientes ante cada autoridad.",
+   "Mantener vigentes los permisos que correspondan, tramitar a tiempo sus renovaciones y modificaciones y levantar las observaciones dentro de los plazos establecidos.",
+   "Según el permiso: autoridad sectorial, ANA, SANIPES, DIGESA, municipalidad"
+  ],
+  [
+   23,
+   4,
+   "Auditorías internas y sistema de gestión ambiental",
+   "O A R",
+   "Las auditorías internas verifican el cumplimiento ambiental y operativo y el funcionamiento del sistema de gestión, por ejemplo bajo la ISO 14001.",
+   "Ejecutar el programa de auditorías, registrar los hallazgos, definir acciones correctivas y verificar su cierre antes de las auditorías externas.",
+   "Gestión interna · entidad certificadora, si aplica"
+  ],
+  [
+   24,
+   4,
+   "Capacitación del personal",
+   "O A R",
+   "El cumplimiento depende del personal que opera los equipos, registra la información y atiende a la autoridad.",
+   "Ejecutar los programas de capacitación comprometidos en el instrumento de gestión ambiental y en el sistema de gestión, con registros de asistencia y evaluación.",
+   "Gestión interna · según los compromisos del instrumento"
+  ]
+ ],
+ "PIN": {
+  "1": [
+   1489.6,
+   352
+  ],
+  "2": [
+   1726.9,
+   525
+  ],
+  "3": [
+   1881.1,
+   582
+  ],
+  "4": [
+   1318.1,
+   565
+  ],
+  "5": [
+   1603.9,
+   736
+  ],
+  "6": [
+   2279.4,
+   818
+  ],
+  "7": [
+   2851,
+   1118
+  ],
+  "8": [
+   2556.6,
+   978
+  ],
+  "9": [
+   2123.5,
+   1080
+  ],
+  "10": [
+   2657,
+   1348
+  ],
+  "11": [
+   1105.1,
+   868
+  ],
+  "12": [
+   608,
+   1339
+  ],
+  "13": [
+   2255.2,
+   980
+  ],
+  "14": [
+   954.4,
+   1025
+  ],
+  "15": [
+   1396.1,
+   1488
+  ],
+  "16": [
+   1382.2,
+   1040
+  ],
+  "17": [
+   1645.5,
+   1162
+  ],
+  "18": [
+   1967.7,
+   1320
+  ],
+  "19": [
+   2054.3,
+   1370
+  ],
+  "20": [
+   2314.1,
+   1564
+  ],
+  "21": [
+   2620.6,
+   1541
+  ],
+  "22": [
+   2116.6,
+   1434
+  ],
+  "23": [
+   1957.3,
+   1600
+  ],
+  "24": [
+   1777.1,
+   1498
+  ]
+ },
+ "CAM": {
+  "0": [
+   1777,
+   998,
+   0.41
+  ],
+  "1": [
+   1677,
+   626,
+   0.814
+  ],
+  "2": [
+   2449,
+   1118,
+   0.741
+  ],
+  "3": [
+   1365,
+   1047,
+   0.688
+  ],
+  "4": [
+   2057,
+   1531,
+   0.869
+  ]
+ },
+ "ZL": [
+  [
+   1,
+   1500,
+   8,
+   "01 · ENTRADAS"
+  ],
+  [
+   2,
+   2678,
+   748,
+   "02 · PROCESO"
+  ],
+  [
+   3,
+   470,
+   1180,
+   "03 · SALIDAS"
+  ],
+  [
+   4,
+   1829,
+   1878,
+   "04 · GESTIÓN"
+  ]
+ ],
+ "EL": [
+  [
+   1,
+   1424,
+   448,
+   "POZO"
+  ],
+  [
+   1,
+   1542,
+   396,
+   "TANQUE DE AGUA CRUDA"
+  ],
+  [
+   1,
+   1620,
+   565,
+   "ABLANDADOR · OI"
+  ],
+  [
+   1,
+   1829,
+   630,
+   "CALDEROS"
+  ],
+  [
+   1,
+   2037,
+   738,
+   "COMBUSTIBLE"
+  ],
+  [
+   1,
+   1206,
+   638,
+   "SUBESTACIÓN"
+  ],
+  [
+   1,
+   1519,
+   767,
+   "RECEPCIÓN DE MATERIA PRIMA"
+  ],
+  [
+   1,
+   1649,
+   1002,
+   "BALANZA"
+  ],
+  [
+   2,
+   2210,
+   998,
+   "PLANTA DE PROCESO"
+  ],
+  [
+   2,
+   2787,
+   1127,
+   "SILOS DE SUBPRODUCTO"
+  ],
+  [
+   2,
+   2579,
+   1379,
+   "TALLER DE MANTENIMIENTO"
+  ],
+  [
+   2,
+   1923,
+   1076,
+   "TORRE DE ENFRIAMIENTO"
+  ],
+  [
+   2,
+   2165,
+   1204,
+   "SECADORES"
+  ],
+  [
+   3,
+   873,
+   814,
+   "IGUALACIÓN"
+  ],
+  [
+   3,
+   1065,
+   873,
+   "FLOTACIÓN DAF"
+  ],
+  [
+   3,
+   902,
+   961,
+   "CLARIFICADOR"
+  ],
+  [
+   3,
+   731,
+   856,
+   "LODOS"
+  ],
+  [
+   3,
+   1322,
+   1057,
+   "ALMACÉN DE RESIDUOS"
+  ],
+  [
+   3,
+   1171,
+   1186,
+   "PATIO DE ACOPIO"
+  ],
+  [
+   3,
+   1569,
+   1272,
+   "BIODIGESTOR"
+  ],
+  [
+   3,
+   1140,
+   1356,
+   "COMPOSTAJE"
+  ],
+  [
+   3,
+   686,
+   1294,
+   "EMISOR SUBMARINO"
+  ],
+  [
+   4,
+   1962,
+   1395,
+   "OFICINAS"
+  ],
+  [
+   4,
+   2245,
+   1586,
+   "LABORATORIO"
+  ],
+  [
+   4,
+   1708,
+   1520,
+   "SALA DE CAPACITACIÓN"
+  ],
+  [
+   4,
+   1907,
+   1611,
+   "SIG"
+  ],
+  [
+   4,
+   1985,
+   1820,
+   "ESTACIONAMIENTO"
+  ],
+  [
+   4,
+   2546,
+   1552,
+   "GARITA"
+  ]
+ ],
+ "ST": [
+  {
+   "n": 0,
+   "num": "00",
+   "name": "Vista general",
+   "cap": "VISTA GENERAL",
+   "title": "Un complejo, cuatro etapas.",
+   "lead": "Elige una etapa o toca un punto para acercarte."
+  },
+  {
+   "n": 1,
+   "num": "01",
+   "name": "Entradas",
+   "cap": "ENTRADAS",
+   "title": "Agua, energía y materia prima.",
+   "lead": "Lo que entra a la planta y lo que exige cada recurso."
+  },
+  {
+   "n": 2,
+   "num": "02",
+   "name": "Proceso",
+   "cap": "PROCESO",
+   "title": "Planta productiva y servicios industriales.",
+   "lead": "Donde el recurso se transforma y se generan las cargas."
+  },
+  {
+   "n": 3,
+   "num": "03",
+   "name": "Salidas",
+   "cap": "SALIDAS",
+   "title": "Efluentes, emisiones y residuos.",
+   "lead": "Lo que sale de la planta y lo que se fiscaliza."
+  },
+  {
+   "n": 4,
+   "num": "04",
+   "name": "Gestión",
+   "cap": "GESTIÓN",
+   "title": "Cumplimiento ante la autoridad.",
+   "lead": "Donde todo lo anterior se vuelve evidencia."
+  }
+ ]
+}

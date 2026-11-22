@@ -1,0 +1,18 @@
+/node_modules
+/.next/
+/out/
+.DS_Store
+*.pem
+.env*
+!.env.example
+.vercel
+next-env.d.ts
+*.tsbuildinfo
+Icon?
+
+# Salidas de QA (capturas e informes); los scripts sí se versionan
+/qa/**/*.png
+/qa/**/*.txt
+/qa/capturas/
+/qa/completas/
+/qa/hojas-*/

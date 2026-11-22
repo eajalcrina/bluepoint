@@ -1,0 +1,404 @@
+[
+ {
+  "n": 1,
+  "etapa": 1,
+  "slug": "captacion-de-agua-y-licencia-de-uso",
+  "titulo": "Captación de agua y licencia de uso",
+  "ejes": [
+   "A",
+   "R"
+  ],
+  "autoridades": "ANA",
+  "opera": "La planta capta agua de un pozo, de un cuerpo natural o de la red pública para el proceso, la limpieza y los servicios industriales. La fuente y el volumen captado definen las condiciones de uso y control.",
+  "exige": "Contar con la licencia de uso de agua o el derecho que corresponda a la fuente, medir los volúmenes captados y cumplir con la retribución económica y las condiciones establecidas en el derecho otorgado.",
+  "pin": [
+   1489.6,
+   352.0
+  ]
+ },
+ {
+  "n": 2,
+  "etapa": 1,
+  "slug": "ablandamiento-y-osmosis-inversa",
+  "titulo": "Ablandamiento y ósmosis inversa",
+  "ejes": [
+   "O",
+   "A"
+  ],
+  "autoridades": "ANA, OEFA, según competencia",
+  "opera": "El agua se acondiciona para calderos y proceso mediante ablandadores u ósmosis inversa. El tratamiento genera un rechazo con mayor concentración de sales y residuos de regeneración.",
+  "exige": "Manejar y disponer el rechazo y los residuos del tratamiento conforme al instrumento de gestión ambiental y, cuando se descargan, a la autorización de vertimiento o reúso que corresponda.",
+  "pin": [
+   1726.9,
+   525.0
+  ]
+ },
+ {
+  "n": 3,
+  "etapa": 1,
+  "slug": "calderos-y-combustibles",
+  "titulo": "Calderos y combustibles",
+  "ejes": [
+   "O",
+   "A"
+  ],
+  "autoridades": "OEFA, autoridad sectorial, según competencia",
+  "opera": "Los calderos generan el vapor que usan la cocción, el secado y la limpieza. Su combustión consume combustible y genera emisiones a la atmósfera.",
+  "exige": "Operar y mantener los equipos de combustión según el instrumento de gestión ambiental, almacenar los combustibles con las condiciones aplicables y realizar los monitoreos de emisiones con la frecuencia y los métodos exigidos.",
+  "pin": [
+   1881.1,
+   582.0
+  ]
+ },
+ {
+  "n": 4,
+  "etapa": 1,
+  "slug": "consumo-de-energia",
+  "titulo": "Consumo de energía",
+  "ejes": [
+   "O"
+  ],
+  "autoridades": "Gestión interna, autoridad sectorial, según el compromiso asumido",
+  "opera": "La subestación alimenta motores, bombas, sistemas de frío y aire comprimido. El consumo de energía es uno de los principales indicadores de eficiencia de la planta.",
+  "exige": "Registrar el consumo y cumplir los compromisos de eficiencia energética que la planta haya asumido en su instrumento de gestión ambiental o en su sistema de gestión.",
+  "pin": [
+   1318.1,
+   565.0
+  ]
+ },
+ {
+  "n": 5,
+  "etapa": 1,
+  "slug": "recepcion-de-materias-primas",
+  "titulo": "Recepción de materias primas e insumos",
+  "ejes": [
+   "O",
+   "R"
+  ],
+  "autoridades": "PRODUCE, SANIPES, según competencia",
+  "opera": "La planta recibe, pesa y almacena materias primas e insumos antes de procesarlos. En esta etapa se generan aguas de descarga, mermas y residuos.",
+  "exige": "Mantener la trazabilidad y los registros de recepción, cumplir las condiciones sanitarias y sectoriales aplicables y manejar las aguas y los residuos de descarga según el instrumento de gestión ambiental.",
+  "pin": [
+   1603.9,
+   736.0
+  ]
+ },
+ {
+  "n": 6,
+  "etapa": 2,
+  "slug": "procesos-unitarios-y-balance-de-materia",
+  "titulo": "Procesos unitarios y balance de materia",
+  "ejes": [
+   "O"
+  ],
+  "autoridades": "Autoridad sectorial, OEFA, según competencia",
+  "opera": "Cada etapa del proceso (cocción, prensado, secado, enfriamiento, envasado) transforma la materia prima y consume agua y energía. En cada una se generan cargas que luego salen como efluentes, emisiones o residuos.",
+  "exige": "Operar según lo descrito en el instrumento de gestión ambiental y contar con un balance de agua y materia que sustente la capacidad, los consumos y las cargas declaradas.",
+  "pin": [
+   2279.4,
+   818.0
+  ]
+ },
+ {
+  "n": 7,
+  "etapa": 2,
+  "slug": "mermas-y-subproductos",
+  "titulo": "Mermas y subproductos",
+  "ejes": [
+   "O",
+   "A"
+  ],
+  "autoridades": "Autoridad sectorial, OEFA, según competencia",
+  "opera": "Lo que no sale como producto final puede recuperarse como subproducto o terminar como residuo. Su manejo define cuánto vuelve al proceso y cuánto sale de la planta.",
+  "exige": "Identificar, almacenar y destinar las mermas y los subproductos según el instrumento de gestión ambiental y la normativa aplicable a su destino final.",
+  "pin": [
+   2851.0,
+   1118.0
+  ]
+ },
+ {
+  "n": 8,
+  "etapa": 2,
+  "slug": "requisitos-sanitarios-del-proceso",
+  "titulo": "Requisitos sanitarios del proceso",
+  "ejes": [
+   "R"
+  ],
+  "autoridades": "SANIPES, DIGESA, según competencia",
+  "opera": "Las áreas de proceso aplican programas de higiene y saneamiento, buenas prácticas de manufactura y control de puntos críticos para asegurar la inocuidad del producto.",
+  "exige": "Contar con la habilitación sanitaria que corresponda y mantener vigentes los programas, registros y verificaciones que exige la autoridad sanitaria.",
+  "pin": [
+   2556.6,
+   978.0
+  ]
+ },
+ {
+  "n": 9,
+  "etapa": 2,
+  "slug": "seguridad-y-salud-en-el-trabajo",
+  "titulo": "Seguridad y salud en el trabajo",
+  "ejes": [
+   "O",
+   "R"
+  ],
+  "autoridades": "SUNAFIL, autoridad sectorial, según competencia",
+  "opera": "La operación expone al personal a riesgos de máquinas, sustancias químicas, espacios confinados y trabajos en altura. La gestión de estos riesgos está ligada a la gestión ambiental.",
+  "exige": "Implementar el sistema de gestión de seguridad y salud en el trabajo, con identificación de peligros y evaluación de riesgos, controles, capacitación y registros, tomando la ISO 45001 como referencia cuando la planta la adopte.",
+  "pin": [
+   2123.5,
+   1080.0
+  ]
+ },
+ {
+  "n": 10,
+  "etapa": 2,
+  "slug": "mantenimiento-de-equipos-ambientales",
+  "titulo": "Mantenimiento de equipos ambientales",
+  "ejes": [
+   "O",
+   "A"
+  ],
+  "autoridades": "Gestión interna, OEFA, según los compromisos asumidos",
+  "opera": "Bombas, filtros, separadores, sistemas de tratamiento y de control de emisiones sostienen el cumplimiento ambiental. Si fallan, la planta incumple aunque el proceso siga funcionando.",
+  "exige": "Mantener operativos los equipos y sistemas de control ambiental comprometidos en el instrumento de gestión ambiental, con un plan de mantenimiento y registros que lo demuestren.",
+  "pin": [
+   2657.0,
+   1348.0
+  ]
+ },
+ {
+  "n": 11,
+  "etapa": 3,
+  "slug": "tratamiento-de-efluentes",
+  "titulo": "Tratamiento de efluentes",
+  "ejes": [
+   "O",
+   "A"
+  ],
+  "autoridades": "OEFA, autoridad sectorial, según competencia",
+  "opera": "Las aguas residuales del proceso pasan por un sistema de tratamiento que separa sólidos, grasas y aceites y reduce su carga mediante tratamientos físicos, químicos o biológicos.",
+  "exige": "Operar el sistema de tratamiento descrito en el instrumento de gestión ambiental y cumplir los límites aplicables al efluente tratado, verificados con monitoreos y métodos acreditados.",
+  "pin": [
+   1105.1,
+   868.0
+  ]
+ },
+ {
+  "n": 12,
+  "etapa": 3,
+  "slug": "vertimiento-y-reuso-de-aguas-residuales",
+  "titulo": "Vertimiento y reúso de aguas residuales tratadas",
+  "ejes": [
+   "A",
+   "R"
+  ],
+  "autoridades": "ANA, OEFA, DICAPI, según competencia",
+  "opera": "Después del tratamiento, el efluente se descarga a un cuerpo natural de agua o se destina a un uso autorizado. Su destino y calidad determinan las condiciones de manejo, control y monitoreo.",
+  "exige": "Contar con la autorización de vertimiento o reúso que corresponda y cumplir las condiciones del instrumento de gestión ambiental y de la autorización: caudal, punto de descarga o uso, parámetros, límites aplicables y monitoreos con métodos acreditados, según lo exigido.",
+  "pin": [
+   608.0,
+   1339.0
+  ]
+ },
+ {
+  "n": 13,
+  "etapa": 3,
+  "slug": "emisiones-de-fuentes-fijas",
+  "titulo": "Emisiones de fuentes fijas",
+  "ejes": [
+   "A",
+   "R"
+  ],
+  "autoridades": "OEFA, autoridad sectorial, según competencia",
+  "opera": "Las chimeneas de calderos, secadores y otros equipos de combustión descargan gases y material particulado a la atmósfera.",
+  "exige": "Cumplir los límites aplicables a las emisiones y realizar los monitoreos en los puntos, con la frecuencia y los métodos establecidos en el instrumento de gestión ambiental.",
+  "pin": [
+   2255.2,
+   980.0
+  ]
+ },
+ {
+  "n": 14,
+  "etapa": 3,
+  "slug": "olores-y-calidad-de-aire",
+  "titulo": "Olores y calidad de aire",
+  "ejes": [
+   "A"
+  ],
+  "autoridades": "OEFA, municipalidad, según competencia",
+  "opera": "El proceso, el almacenamiento de materias primas y el tratamiento de efluentes pueden generar olores y afectar la calidad del aire del entorno.",
+  "exige": "Aplicar las medidas de control comprometidas, monitorear la calidad de aire según el instrumento de gestión ambiental y atender las quejas de la población vecina.",
+  "pin": [
+   954.4,
+   1025.0
+  ]
+ },
+ {
+  "n": 15,
+  "etapa": 3,
+  "slug": "ruido-ambiental",
+  "titulo": "Ruido ambiental",
+  "ejes": [
+   "A",
+   "R"
+  ],
+  "autoridades": "OEFA, municipalidad, según competencia",
+  "opera": "Ventiladores, compresores, bombas y el tránsito de camiones generan ruido que llega al perímetro de la planta y a las zonas vecinas.",
+  "exige": "Monitorear el ruido en los puntos del perímetro definidos en el instrumento de gestión ambiental y compararlo con los estándares aplicables a la zona, aplicando medidas de control cuando corresponda.",
+  "pin": [
+   1396.1,
+   1488.0
+  ]
+ },
+ {
+  "n": 16,
+  "etapa": 3,
+  "slug": "residuos-solidos",
+  "titulo": "Residuos sólidos",
+  "ejes": [
+   "A",
+   "R"
+  ],
+  "autoridades": "OEFA, autoridad sectorial, municipalidad, según competencia",
+  "opera": "La planta genera residuos peligrosos y no peligrosos que se segregan, se almacenan temporalmente y salen para su valorización o disposición final.",
+  "exige": "Segregar y almacenar los residuos según su tipo, manejarlos con empresas operadoras registradas, contar con los manifiestos y presentar las declaraciones exigidas.",
+  "pin": [
+   1382.2,
+   1040.0
+  ]
+ },
+ {
+  "n": 17,
+  "etapa": 3,
+  "slug": "valorizacion-de-residuos-organicos",
+  "titulo": "Valorización de residuos orgánicos",
+  "ejes": [
+   "O",
+   "A"
+  ],
+  "autoridades": "Autoridad sectorial, OEFA, según competencia",
+  "opera": "Los residuos orgánicos pueden convertirse en biogás mediante un biodigestor o en compost para uso agrícola, en lugar de ir a disposición final.",
+  "exige": "Que la actividad de valorización esté contemplada en el instrumento de gestión ambiental y se opere controlando sus propios efluentes, emisiones y olores.",
+  "pin": [
+   1645.5,
+   1162.0
+  ]
+ },
+ {
+  "n": 18,
+  "etapa": 4,
+  "slug": "instrumento-de-gestion-ambiental",
+  "titulo": "Instrumento de gestión ambiental y compromisos",
+  "ejes": [
+   "R"
+  ],
+  "autoridades": "Autoridad sectorial, OEFA, según competencia",
+  "opera": "El instrumento de gestión ambiental aprobado describe la operación y reúne los compromisos que la planta asumió: medidas de manejo, monitoreos, plazos y reportes.",
+  "exige": "Cumplir cada compromiso en el plazo establecido, con evidencia verificable, y actualizar o modificar el instrumento cuando la planta cambia su capacidad, sus procesos o sus instalaciones.",
+  "pin": [
+   1967.7,
+   1320.0
+  ]
+ },
+ {
+  "n": 19,
+  "etapa": 4,
+  "slug": "matriz-de-obligaciones-ambientales",
+  "titulo": "Matriz de obligaciones y vigilancia normativa",
+  "ejes": [
+   "R"
+  ],
+  "autoridades": "Gestión interna",
+  "opera": "La matriz reúne las obligaciones que aplican a la planta según su sector, su instrumento y sus autorizaciones, con el responsable, la frecuencia y la evidencia de cada una.",
+  "exige": "Mantenerla actualizada frente a los cambios normativos y operativos, y usarla para programar y verificar el cumplimiento.",
+  "pin": [
+   2054.3,
+   1370.0
+  ]
+ },
+ {
+  "n": 20,
+  "etapa": 4,
+  "slug": "monitoreos-y-reportes-ambientales",
+  "titulo": "Monitoreos y reportes a la autoridad",
+  "ejes": [
+   "A",
+   "R"
+  ],
+  "autoridades": "PRODUCE, OEFA, ANA, DICAPI, según competencia",
+  "opera": "La planta ejecuta programas de monitoreo de efluentes, emisiones, calidad de aire y ruido, y presenta sus resultados en informes periódicos.",
+  "exige": "Realizar los monitoreos con laboratorios y métodos acreditados y presentar los informes en los plazos y las plataformas que establece cada autoridad.",
+  "pin": [
+   2314.1,
+   1564.0
+  ]
+ },
+ {
+  "n": 21,
+  "etapa": 4,
+  "slug": "fiscalizacion-ambiental-y-procedimiento-sancionador",
+  "titulo": "Supervisiones, fiscalizaciones y procedimientos sancionadores",
+  "ejes": [
+   "R"
+  ],
+  "autoridades": "OEFA, PRODUCE, ANA, según competencia",
+  "opera": "La autoridad supervisa la planta en campo o en gabinete, emite requerimientos y, si encuentra incumplimientos, puede iniciar un procedimiento administrativo sancionador.",
+  "exige": "Atender las supervisiones con la información y las evidencias requeridas, presentar los descargos técnicos y legales en los plazos establecidos y cumplir las medidas administrativas o correctivas que se dicten.",
+  "pin": [
+   2620.6,
+   1541.0
+  ]
+ },
+ {
+  "n": 22,
+  "etapa": 4,
+  "slug": "permisos-y-autorizaciones",
+  "titulo": "Permisos, autorizaciones y expedientes",
+  "ejes": [
+   "R"
+  ],
+  "autoridades": "Según el permiso: autoridad sectorial, ANA, SANIPES, DIGESA, municipalidad",
+  "opera": "La operación depende de licencias, autorizaciones y certificados vigentes, cuyos trámites y modificaciones se siguen como expedientes ante cada autoridad.",
+  "exige": "Mantener vigentes los permisos que correspondan, tramitar a tiempo sus renovaciones y modificaciones y levantar las observaciones dentro de los plazos establecidos.",
+  "pin": [
+   2116.6,
+   1434.0
+  ]
+ },
+ {
+  "n": 23,
+  "etapa": 4,
+  "slug": "auditorias-internas-iso-14001",
+  "titulo": "Auditorías internas y sistema de gestión ambiental",
+  "ejes": [
+   "O",
+   "A",
+   "R"
+  ],
+  "autoridades": "Gestión interna, entidad certificadora, cuando la planta está certificada",
+  "opera": "Las auditorías internas verifican el cumplimiento ambiental y operativo y el funcionamiento del sistema de gestión, por ejemplo bajo la ISO 14001.",
+  "exige": "Ejecutar el programa de auditorías, registrar los hallazgos, definir acciones correctivas y verificar su cierre antes de las auditorías externas.",
+  "pin": [
+   1957.3,
+   1600.0
+  ]
+ },
+ {
+  "n": 24,
+  "etapa": 4,
+  "slug": "capacitacion-ambiental-del-personal",
+  "titulo": "Capacitación del personal",
+  "ejes": [
+   "O",
+   "A",
+   "R"
+  ],
+  "autoridades": "Gestión interna, según los compromisos del instrumento",
+  "opera": "El cumplimiento depende del personal que opera los equipos, registra la información y atiende a la autoridad.",
+  "exige": "Ejecutar los programas de capacitación comprometidos en el instrumento de gestión ambiental y en el sistema de gestión, con registros de asistencia y evaluación.",
+  "pin": [
+   1777.1,
+   1498.0
+  ]
+ }
+]
