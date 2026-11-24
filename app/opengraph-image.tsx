@@ -1,12 +1,12 @@
 import { ImageResponse } from 'next/og'
-import { ISO_OSCURO, ISO_VIEWBOX } from '@/lib/isotipo'
+import { ISO_NEGATIVO, ISO_VIEWBOX } from '@/lib/isotipo'
 
 export const alt = 'Grupo BluePoint, ambiental y regulatorio'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
 export default async function Imagen() {
-  const iso = `data:image/svg+xml;utf8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="${ISO_VIEWBOX}">${ISO_OSCURO}</svg>`)}`
+  const iso = `data:image/svg+xml;utf8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="${ISO_VIEWBOX}">${ISO_NEGATIVO}</svg>`)}`
   return new ImageResponse(
     (
       <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', padding: 72, background: 'linear-gradient(155deg, #18386c 0%, #0d2147 45%, #070f20 100%)', color: '#ffffff', fontFamily: 'sans-serif' }}>

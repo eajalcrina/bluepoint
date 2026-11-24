@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Rotulo from './Rotulo'
 import { IconoCorreo, IconoFacebook, IconoLinkedin, IconoWhatsapp } from './Iconos'
 import Logo from './Logo'
-import { GLIFOS, PASOS_SVG } from '@/lib/svgs'
 import {
   ALIANZA, CIFRAS, CLIENTES, CONTACTO, DIRECTOR, EQUIPO, FAQ, FICHAS, HERO, MIRADAS, PASOS, PIE, SECTORES, SERVICIOS, SITIO,
   agendaTexto, agendaUrl, nn, whatsappUrl,
@@ -52,17 +51,11 @@ export function Pasos() {
           <h2 id="titulo-pasos" className="titulo-2">{PASOS.titulo}</h2>
           <p className="bajada">{PASOS.bajada}</p>
         </div>
-        <svg width="0" height="0" style={{ position: 'absolute' }} aria-hidden="true">
-          <defs><g id="pasos-ilustracion" dangerouslySetInnerHTML={{ __html: PASOS_SVG }} /></defs>
-        </svg>
-        <div className="pasos__banda" aria-hidden="true">
-          <svg viewBox="0 0 1240 320"><use href="#pasos-ilustracion" /></svg>
-        </div>
         <ol className="pasos__lista">
           {PASOS.items.map((p, i) => (
             <li className="paso" key={p.nombre}>
-              <div className="paso__ilus" aria-hidden="true">
-                <svg viewBox={`${i * 248 + 4} 80 240 240`}><use href="#pasos-ilustracion" /></svg>
+              <div className="paso__ilus">
+                <img src={`/etapas/a${i + 1}.svg`} alt={p.ilustracion} width={228} height={200} loading="lazy" />
               </div>
               <div className="paso__texto">
                 <span className="paso__rotulo">Etapa {nn(i + 1)}</span>
@@ -80,18 +73,16 @@ export function Pasos() {
 export function Miradas() {
   return (
     <section id="nosotros" className="seccion miradas sobre-marino" aria-labelledby="titulo-miradas">
-      <img className="miradas__plano miradas__plano--escritorio" src="/planta/planta-lineas.svg" alt="" aria-hidden="true" width={3540} height={2240} loading="lazy" />
       <div className="contenedor">
         <div className="encabezado-seccion">
           <Rotulo num="03">{MIRADAS.rotulo}</Rotulo>
           <h2 id="titulo-miradas" className="titulo-2">{MIRADAS.titulo}</h2>
           <p className="bajada">{MIRADAS.bajada}</p>
         </div>
-        <img className="miradas__plano miradas__plano--celular" src="/planta/planta-lineas.svg" alt="" aria-hidden="true" width={3540} height={2240} loading="lazy" />
         <div className="miradas__grid">
           {MIRADAS.items.map((m) => (
             <div className="mirada" key={m.titulo}>
-              <svg className="mirada__glifo" viewBox={GLIFOS[m.glifo].viewBox} aria-hidden="true" dangerouslySetInnerHTML={{ __html: GLIFOS[m.glifo].svg }} />
+              <img className="mirada__glifo" src={`/etapas/${m.glifo}.svg`} alt={m.ilustracion} width={249} height={190} loading="lazy" />
               <h3 className="titulo-3">{m.titulo}</h3>
               <p>{m.texto}</p>
             </div>
@@ -162,7 +153,7 @@ export function Sectores() {
 
 export function Clientes() {
   return (
-    <section className="clientes sobre-claro" aria-labelledby="titulo-clientes" style={{ background: 'var(--papel-2)' }}>
+    <section className="clientes sobre-oscuro" aria-labelledby="titulo-clientes">
       <div className="contenedor">
         <div className="encabezado-seccion">
           <Rotulo>{CLIENTES.rotulo}</Rotulo>

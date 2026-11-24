@@ -10,10 +10,10 @@ export const SITIO = {
   telefono: '+51 955 123 231',
   whatsappNumero: '51955123231',
   whatsappTexto: 'Hola, quiero agendar una reunión con Grupo BluePoint.',
-  // Enlace de reservas de Aníbal (Google Calendar). Mientras falte, los botones de agenda abren WhatsApp.
-  reservas: '',
-  linkedin: 'https://www.linkedin.com/company/grupobluepoint',
-  facebook: 'https://www.facebook.com/grupobluepoint',
+  // Enlace de reservas de Aníbal (Google Calendar, 24-nov-2026). Vacío: los botones de agenda abren WhatsApp.
+  reservas: 'https://calendar.app.google/9o4GqthVgjXFq4tc9',
+  linkedin: 'https://www.linkedin.com/company/grupo-bluepoint-advisory/',
+  facebook: 'https://www.facebook.com/profile.php?id=61595275384923',
   ciudad: 'Lima, Perú',
   descripcionCorta:
     'Asesoría técnica y legal para que tu planta cumpla la normativa ambiental: fiscalizaciones, instrumentos de gestión ambiental, efluentes y permisos.',
@@ -98,11 +98,11 @@ export const PASOS = {
   titulo: 'Del hallazgo a la evidencia',
   bajada: 'Atención directa, recomendaciones adaptadas a cada planta y seguimiento con responsables, plazos y evidencias.',
   items: [
-    { nombre: 'Diagnóstico', texto: 'Identificamos necesidades, riesgos y oportunidades de mejora.' },
-    { nombre: 'Evaluación', texto: 'Analizamos la viabilidad técnica, legal, ambiental, económica y operativa.' },
-    { nombre: 'Plan de acción', texto: 'Definimos soluciones, plazos, responsables y recursos.' },
-    { nombre: 'Implementación', texto: 'Ejecutamos las acciones con acompañamiento técnico y coordinación permanente.' },
-    { nombre: 'Seguimiento', texto: 'Medimos resultados, verificamos avances y detectamos oportunidades de mejora.' },
+    { nombre: 'Diagnóstico', ilustracion: 'Un inspector con tableta recorre un tanque marcado con hallazgos', texto: 'Identificamos necesidades, riesgos y oportunidades de mejora.' },
+    { nombre: 'Evaluación', ilustracion: 'Una mesa con los expedientes técnico, legal, ambiental, económico y operativo, y una balanza', texto: 'Analizamos la viabilidad técnica, legal, ambiental, económica y operativa.' },
+    { nombre: 'Plan de acción', ilustracion: 'El equipo revisa un cronograma de tareas en un tablero', texto: 'Definimos soluciones, plazos, responsables y recursos.' },
+    { nombre: 'Implementación', ilustracion: 'Una grúa instala un equipo nuevo mientras dos técnicos supervisan', texto: 'Ejecutamos las acciones con acompañamiento técnico y coordinación permanente.' },
+    { nombre: 'Seguimiento', ilustracion: 'Una estación de monitoreo y una pantalla con la tendencia de los indicadores', texto: 'Medimos resultados, verificamos avances y detectamos oportunidades de mejora.' },
   ],
 }
 
@@ -117,14 +117,16 @@ export const MIRADAS = {
       titulo: 'Experiencia en la industria',
       texto:
         'Más de 18 años de trayectoria profesional, con experiencia en calidad, gestión ambiental, tratamiento de efluentes, monitoreos y auditorías ISO 14001. Conocimiento operativo para proponer soluciones aplicables a tu empresa.',
-      glifo: 'planta',
+      glifo: 'am1',
+      ilustracion: 'Planta de proceso con tanques, chimenea y un ingeniero en el patio',
     },
     {
       rotulo: 'En el Estado',
       titulo: 'Experiencia en la gestión pública',
       texto:
         'Experiencia en el Ministerio de la Producción, brindando asistencia técnica y participando en la evaluación de expedientes y propuestas normativas. Conocimiento de los procedimientos administrativos para orientar una gestión documentada y oportuna.',
-      glifo: 'autoridad',
+      glifo: 'am2',
+      ilustracion: 'Edificio institucional con expedientes apilados en la entrada',
     },
   ],
 }
@@ -250,11 +252,11 @@ export const CLIENTES = {
   rotulo: 'Clientes',
   titulo: 'Organizaciones que trabajan con nosotros',
   items: [
-    { nombre: 'Congeladora Industrial Ilo', logo: '/clientes/congeladora-industrial-ilo.webp', ancho: 1053, alto: 220 },
-    { nombre: 'Moca Cacao', logo: '/clientes/moca-cacao.webp', ancho: 307, alto: 409 },
-    { nombre: 'Don Ricardo', logo: '/clientes/don-ricardo.webp', ancho: 150, alto: 120 },
-    { nombre: 'La Vela Verde', logo: '/clientes/la-vela-verde.webp', ancho: 261, alto: 235 },
-    { nombre: 'Fisio Integral', logo: '/clientes/fisio-integral.webp', ancho: 547, alto: 175 },
+    { nombre: 'Congeladora Industrial Ilo', logo: '/clientes/congeladora-industrial-ilo.webp', ancho: 1041, alto: 207 },
+    { nombre: 'Moca Cacao', logo: '/clientes/moca-cacao.webp', ancho: 249, alto: 345 },
+    { nombre: 'Don Ricardo', logo: '/clientes/don-ricardo.webp', ancho: 138, alto: 108 },
+    { nombre: 'La Vela Verde', logo: '/clientes/la-vela-verde.webp', ancho: 201, alto: 92 },
+    { nombre: 'Fisio Integral', logo: '/clientes/fisio-integral.webp', ancho: 511, alto: 210 },
   ],
 }
 

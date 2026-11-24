@@ -17,9 +17,10 @@ Nada se publica sin el «publícalo» de Eddie.
 - El nombre es «Grupo BluePoint», con el respaldo «Ambiental y regulatorio».
 - Nunca se usa «Bluepoint Advisory» (aprobado el 22-nov-2026).
 
-**Logo** (22-nov-2026, pedido de Aníbal)
-- El isotipo va en color y las letras en blanco sobre fondo oscuro.
-- La versión para fondo oscuro aclara el marino del velamen a #2b63c0.
+**Logo** (corregido el 24-nov-2026 por Eddie)
+- El logo aprobado es de una sola tinta: marino #0a2050 en positivo y blanco en negativo, como el tablero «Aprobado» del lienzo «Bluepoint · Logo refinado».
+- Sobre los fondos oscuros del sitio va el negativo en blanco, con los calados transparentes (`lib/isotipo.ts`, `ISO_NEGATIVO`). El favicon y `public/marca/isotipo.svg` van en positivo.
+- Nunca se usa la versión en colores.
 
 **Paleta** (tokens en `app/globals.css`)
 - Carbón #0b0e12.
@@ -54,20 +55,20 @@ Nada se publica sin el «publícalo» de Eddie.
 - **Retratos** (22-nov-2026):
   - Son las fotos originales con el fondo quitado con Vision de macOS.
   - Van sobre el mismo gris, con la misma altura de cara.
-  - No se usan los retratos editados con IA que mandó Aníbal, porque muestran el logo viejo «Advisory».
+  - No se usan los retratos editados con IA que mandó Aníbal, porque muestran el logo viejo «Advisory». Tampoco fondos con logo: desentonan con el resto de las fotos (24-nov-2026).
 - **Imágenes:**
   - No se usan imágenes generadas por IA de instituciones reales.
   - Las ilustraciones de «Cómo trabajamos» y «Dos miradas» usan equipos de la misma planta isométrica.
 - **Clientes:**
   - Aníbal autorizó publicar Moca Cacao, La Vela Verde, Congeladora Industrial Ilo, Don Ricardo y Fisio Integral.
-  - Van en gris y toman color al pasar el cursor.
+  - Van en negativo (blanco) sobre una franja carbón, todos con el mismo tratamiento (24-nov-2026, pedido de Eddie). Se generan con `../web/_gen/clientes_negativo.py` desde `../insumos/clientes/`.
   - Faltan los logos en vector.
 - **Cifras del hero:**
   - Son trayectoria de Aníbal, con la nota de alcance debajo.
   - Están pendientes de su visto bueno antes de publicar.
-- **Agenda:**
-  - Mientras falte el enlace de reservas (`SITIO.reservas`), los botones dicen «Agenda una reunión por WhatsApp» y abren WhatsApp.
-  - Al cargar el enlace, cambian solos.
+- **Agenda:** los botones abren la agenda de Google Calendar de Aníbal (`SITIO.reservas`, 24-nov-2026). Si el enlace se vacía, vuelven a WhatsApp.
+- **Redes:** LinkedIn de la empresa (grupo-bluepoint-advisory) y Facebook por su id de perfil, sin parámetros de sesión (24-nov-2026).
+- **Ilustraciones de etapas y «Dos miradas»** (24-nov-2026, alternativa A elegida por Eddie): cada etapa es una escena isométrica con personas haciendo lo que dice la frase. Salen de `../web/_gen/etapas_alternativas.py` hacia `public/etapas/`. No se usan fotos de stock ni imágenes generadas por IA en estas secciones.
 
 ## Planta interactiva
 

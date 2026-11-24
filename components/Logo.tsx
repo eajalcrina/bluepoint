@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import { ISO_OSCURO, ISO_VIEWBOX } from '@/lib/isotipo'
+import { ISO_NEGATIVO, ISO_VIEWBOX } from '@/lib/isotipo'
 
-// Logo aprobado: isotipo en color (pedido de Aníbal, 22-nov-2026) y letras blancas sobre fondo oscuro.
+// Logo aprobado a una tinta: sobre los fondos oscuros del sitio va el negativo en blanco.
 export function Isotipo({ className }: { className?: string }) {
-  return <svg className={className} viewBox={ISO_VIEWBOX} aria-hidden="true" dangerouslySetInnerHTML={{ __html: ISO_OSCURO }} />
+  return <svg className={className} viewBox={ISO_VIEWBOX} aria-hidden="true" dangerouslySetInnerHTML={{ __html: ISO_NEGATIVO }} />
 }
 
 export default function Logo() {
