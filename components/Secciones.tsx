@@ -73,12 +73,14 @@ export function Pasos() {
 export function Miradas() {
   return (
     <section id="nosotros" className="seccion miradas sobre-marino" aria-labelledby="titulo-miradas">
+      <img className="miradas__plano miradas__plano--escritorio" src="/planta/planta-lineas.svg" alt="" aria-hidden="true" width={3540} height={2240} loading="lazy" />
       <div className="contenedor">
         <div className="encabezado-seccion">
           <Rotulo num="03">{MIRADAS.rotulo}</Rotulo>
           <h2 id="titulo-miradas" className="titulo-2">{MIRADAS.titulo}</h2>
           <p className="bajada">{MIRADAS.bajada}</p>
         </div>
+        <img className="miradas__plano miradas__plano--celular" src="/planta/planta-lineas.svg" alt="" aria-hidden="true" width={3540} height={2240} loading="lazy" />
         <div className="miradas__grid">
           {MIRADAS.items.map((m) => (
             <div className="mirada" key={m.titulo}>

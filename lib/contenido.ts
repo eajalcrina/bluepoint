@@ -252,11 +252,11 @@ export const CLIENTES = {
   rotulo: 'Clientes',
   titulo: 'Organizaciones que trabajan con nosotros',
   items: [
-    { nombre: 'Congeladora Industrial Ilo', logo: '/clientes/congeladora-industrial-ilo.webp', ancho: 1041, alto: 207 },
-    { nombre: 'Moca Cacao', logo: '/clientes/moca-cacao.webp', ancho: 249, alto: 345 },
-    { nombre: 'Don Ricardo', logo: '/clientes/don-ricardo.webp', ancho: 138, alto: 108 },
-    { nombre: 'La Vela Verde', logo: '/clientes/la-vela-verde.webp', ancho: 201, alto: 92 },
-    { nombre: 'Fisio Integral', logo: '/clientes/fisio-integral.webp', ancho: 511, alto: 210 },
+    { nombre: 'Congeladora Industrial Ilo', logo: '/clientes/congeladora-industrial-ilo-negativo.webp', ancho: 1041, alto: 207 },
+    { nombre: 'Moca Cacao', logo: '/clientes/moca-cacao-negativo.webp', ancho: 249, alto: 345 },
+    { nombre: 'Don Ricardo', logo: '/clientes/don-ricardo-negativo.webp', ancho: 138, alto: 108 },
+    { nombre: 'La Vela Verde', logo: '/clientes/la-vela-verde-negativo.webp', ancho: 201, alto: 92 },
+    { nombre: 'Fisio Integral', logo: '/clientes/fisio-integral-negativo.webp', ancho: 511, alto: 210 },
   ],
 }
 

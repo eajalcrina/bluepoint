@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   async headers() {
     return [
-      { source: '/:all*(svg|webp|png|jpg|woff2)', headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }] },
+      { source: '/:all*(svg|webp|png|jpg|woff2)', headers: [{ key: 'Cache-Control', value: 'public, max-age=3600, must-revalidate' }] },
       { source: '/:path*', headers: [{ key: 'X-Content-Type-Options', value: 'nosniff' }, { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' }] },
     ]
   },

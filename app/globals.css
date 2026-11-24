@@ -300,14 +300,20 @@ button { font: inherit; }
 
 /* Dos miradas */
 .miradas { position: relative; overflow: hidden; }
+.miradas__plano { display: block; width: 560px; max-width: none; margin: 8px 0 -48px -110px; opacity: 0.9; -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent 96%); mask-image: linear-gradient(180deg, #000 60%, transparent 96%); pointer-events: none; }
 .miradas .contenedor { position: relative; }
+.miradas__plano--celular { margin: 24px 0 -24px -110px; }
+.miradas__plano--escritorio { display: none; }
 .miradas__grid { margin-top: 40px; display: grid; border-top: 1px solid var(--marino-linea); }
 .mirada { padding: 28px 0; display: grid; gap: 14px; border-bottom: 1px solid var(--marino-linea); }
 .mirada__glifo { display: block; width: 100%; max-width: 300px; height: 200px; object-fit: contain; object-position: left bottom; }
 .mirada p { margin: 0; font-size: 17px; line-height: 1.6; color: #dfe5ee; }
 @media (min-width: 1024px) {
   .miradas { padding-top: var(--seccion); }
+  .miradas__plano { position: absolute; right: -160px; top: 64px; width: 780px; margin: 0; }
   .miradas .contenedor { position: static; }
+  .miradas__plano--celular { display: none; }
+  .miradas__plano--escritorio { display: block; }
   .miradas .encabezado-seccion { max-width: 760px; }
   .miradas__grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto auto auto; }
   .mirada { grid-template-rows: subgrid; grid-row: span 3; padding: 40px 40px 40px 0; border-bottom: 0; }

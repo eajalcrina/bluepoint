@@ -61,14 +61,15 @@ Nada se publica sin el «publícalo» de Eddie.
   - Las ilustraciones de «Cómo trabajamos» y «Dos miradas» usan equipos de la misma planta isométrica.
 - **Clientes:**
   - Aníbal autorizó publicar Moca Cacao, La Vela Verde, Congeladora Industrial Ilo, Don Ricardo y Fisio Integral.
-  - Van en negativo (blanco) sobre una franja carbón, todos con el mismo tratamiento (24-nov-2026, pedido de Eddie). Se generan con `../web/_gen/clientes_negativo.py` desde `../insumos/clientes/`.
+  - Van en negativo (blanco) sobre una franja carbón, todos con el mismo tratamiento (24-nov-2026, pedido de Eddie). Se generan con `../web/_gen/clientes_negativo.py` desde `../insumos/clientes/`, con sufijo `-negativo` en el nombre.
   - Faltan los logos en vector.
 - **Cifras del hero:**
   - Son trayectoria de Aníbal, con la nota de alcance debajo.
   - Están pendientes de su visto bueno antes de publicar.
 - **Agenda:** los botones abren la agenda de Google Calendar de Aníbal (`SITIO.reservas`, 24-nov-2026). Si el enlace se vacía, vuelven a WhatsApp.
 - **Redes:** LinkedIn de la empresa (grupo-bluepoint-advisory) y Facebook por su id de perfil, sin parámetros de sesión (24-nov-2026).
-- **Ilustraciones de etapas y «Dos miradas»** (24-nov-2026, alternativa A elegida por Eddie): cada etapa es una escena isométrica con personas haciendo lo que dice la frase. Salen de `../web/_gen/etapas_alternativas.py` hacia `public/etapas/`. No se usan fotos de stock ni imágenes generadas por IA en estas secciones.
+- **Ilustraciones de etapas y «Dos miradas»** (24-nov-2026, alternativa A elegida por Eddie): cada etapa es una escena isométrica con personas haciendo lo que dice la frase. Salen de `../web/_gen/etapas_alternativas.py` hacia `public/etapas/`. No se usan fotos de stock ni imágenes generadas por IA en estas secciones. El plano de la planta en líneas se mantiene de fondo en «Dos miradas» (pedido de Eddie).
+- **Caché de archivos públicos:** una hora con revalidación (`next.config.ts`). Un archivo que cambia de contenido cambia también de nombre, para que nadie vea la versión anterior.
 
 ## Planta interactiva
 
