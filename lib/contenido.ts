@@ -237,7 +237,7 @@ export const EQUIPO = {
     {
       nombre: 'Germán Torres Vértiz',
       area: 'Sanidad pesquera e infraestructura',
-      foto: '/equipo/german-torres',
+      foto: '/equipo/german-torres-2026-11-24',
       bio: [
         'Ingeniero pesquero titulado por la Universidad Nacional del Callao y colegiado en el CIP, con más de 20 años en el sector pesquero industrial y artesanal. Fue inspector y evaluador del SANIPES y especialista en el Ministerio de la Producción, el FONDEPES y el MTC.',
         'Acompaña habilitaciones sanitarias, planes HACCP, autorizaciones de instalación, licencias de operación y estudios de impacto ambiental. Tiene formación en ISO 22000, HACCP y auditoría ISO/IEC 17020.',
