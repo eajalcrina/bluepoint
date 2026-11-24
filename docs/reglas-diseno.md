@@ -45,7 +45,7 @@ Nada se publica sin el «publícalo» de Eddie.
   - El título de Servicios se ajustó para quitar el conteo («Siete líneas de servicio»).
 - **Sectores:** pesca industrial, acuicultura, alimentos y bebidas, agroindustria y agroexportación, y manufactura. Textil no va (22-nov-2026).
 - **Expertos asociados:** Melissa Flores Morales y Germán Torres Vértiz.
-- **Empleadores anteriores:** la web no nombra a la pesquera donde trabajaron Aníbal y Melissa. Las bios dicen «una de las mayores empresas pesqueras del país» (22-nov-2026). Eddie puede revertirlo.
+- **TASA:** la bio de Melissa la nombra, con etiqueta junto a SERNANP y PRODUCE (24-nov-2026, decisión de Eddie).
 - **Revisión de fichas:** las fichas no llevan sello «revisado» ni `lastReviewed` hasta que Aníbal las firme. La nota dice que están en validación técnica.
 - **Textos de Aníbal ajustados:**
   - El título de Servicios.

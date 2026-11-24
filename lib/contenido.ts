@@ -226,10 +226,10 @@ export const EQUIPO = {
       area: 'Asuntos regulatorios y legales',
       foto: '/equipo/melissa-flores',
       bio: [
-        'Abogada senior con más de 15 años en sectores altamente regulados, entre instituciones públicas y empresa privada. Su trayectoria en el SERNANP, el Ministerio de la Producción y la gerencia legal y de asuntos corporativos de una de las mayores empresas pesqueras del país le permite entender tanto la lógica de la administración pública como las necesidades del sector empresarial.',
+        'Abogada senior con más de 15 años en sectores altamente regulados, entre instituciones públicas y empresa privada. Su trayectoria en el SERNANP, el Ministerio de la Producción y la gerencia legal y de asuntos corporativos de TASA le permite entender tanto la lógica de la administración pública como las necesidades del sector empresarial.',
         'Hace seguimiento y análisis normativo, evalúa proyectos de ley y propuestas regulatorias, prepara informes de sustento y coordina con autoridades y actores de interés. Traduce normativa compleja en recomendaciones ejecutivas y anticipa riesgos regulatorios.',
       ],
-      instituciones: ['SERNANP', 'PRODUCE'],
+      instituciones: ['SERNANP', 'PRODUCE', 'TASA'],
       linkedin: 'https://www.linkedin.com/in/melissafloresmorales/',
     },
     {
